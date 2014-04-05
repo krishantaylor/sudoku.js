@@ -1,0 +1,19 @@
+{
+  "name": "sudoku.js",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/krishantaylor/sudoku.js.git"
+  },
+  "author": "Krishan Taylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishantaylor/sudoku.js/issues"
+  },
+  "homepage": "https://github.com/krishantaylor/sudoku.js"
+}
