@@ -64,6 +64,15 @@ Sudoku.prototype.toString = function () {
 Sudoku.prototype.setValue = function (row, column, value) {
   this.cells[row * 9 + column].value = value;
 };
+Sudoku.isValidMove = function (board, cell, value) {
+  function checkValue(c) {
+    return c.value == value;
+  }
+
+  return !board.rows[cell.row].find(checkValue) &&
+    !board.columns[cell.column].find(checkValue) &&
+    !board.sections[cell.section].find(checkValue);
+};
 
 function getRow(c) {
   return c.row;
